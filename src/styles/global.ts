@@ -8,12 +8,13 @@ export default createGlobalStyle`
         outline:0;
         box-sizing: border-box;
     }
-
+    
     body{
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
-
+    
     body, input, button{
         font: 16px Roboto, sans-serif;
         color: ${theme.font};
