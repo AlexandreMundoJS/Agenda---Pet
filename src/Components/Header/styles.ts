@@ -10,6 +10,8 @@ export const Container = styled.header`
   background-color: ${theme.white};
   color: ${theme.white};
   padding: 0px 40px;
+  border: 1px solid ${theme.grey};
+
   @media (max-width: 410px) {
     padding: 6px 40px;
     justify-content: center;
@@ -20,9 +22,10 @@ export const Logo = styled.div`
   display: flex;
   align-items: center;
   cursor: pointer;
-  color: #f0d351;
+  color: ${theme.darkGrey};
   h1 {
     margin-left: 8px;
+    font-size: 25px;
   }
 `;
 
@@ -41,7 +44,7 @@ export const User = styled.div`
   justify-content: space-evenly;
   flex-direction: column;
   cursor: pointer;
-  color: #f0d351;
+  color: black;
   h1 {
     margin-left: 8px;
   }

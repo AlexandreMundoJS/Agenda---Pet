@@ -11,8 +11,7 @@ const Header: React.FC = () => {
       </Logo>
       <UserDiv>
         <User>
-          <h3>Alexandre Machado</h3>
-          <h5>Logged In</h5>
+          <h3>Olá, Alexandre</h3>
         </User>
       </UserDiv>
     </Container>
