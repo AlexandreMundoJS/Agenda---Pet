@@ -6,7 +6,7 @@ export const Container = styled.header`
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  height: 120px;
+  height: 100px;
   background-color: ${theme.white};
   color: ${theme.white};
   padding: 0px 40px;

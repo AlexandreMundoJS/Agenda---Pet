@@ -1,7 +1,7 @@
 import React from "react";
 import { SideNav } from "./styles";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import {Link } from "react-router-dom";
+
 import {
   faList,
   faPlusCircle,
@@ -14,10 +14,18 @@ const NavBar: React.FC = () => {
   return (
     <>
       <SideNav>
-        <NavItem icon={faList} size={"2x"} text={"Atendimentos"} />
-        <NavItem icon={faPlusCircle} size={"2x"} text={"Adicionar"} />
-        <NavItem icon={faCogs} size={"2x"} text={"Configurações"} />
-        <NavItem icon={faUser} size={"2x"} text={"Perfil"} />
+        <NavItem icon={faList} size={"2x"} text={"Atendimentos"}>
+          <Link to="/atendimentos"></Link>
+        </NavItem>
+        <NavItem icon={faPlusCircle} size={"2x"} text={"Adicionar"}>
+          <Link to="/adicionar"></Link>
+        </NavItem>
+        <NavItem icon={faCogs} size={"2x"} text={"Configurações"}>
+          <Link to="/configuracoes"></Link>
+        </NavItem>
+        <NavItem icon={faUser} size={"2x"} text={"Perfil"}>
+          <Link to="/perfil"></Link>
+        </NavItem>
       </SideNav>
     </>
   );
