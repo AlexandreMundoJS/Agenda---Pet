@@ -9,7 +9,7 @@ export const Container = styled.header`
   height: 100px;
   background-color: ${theme.white};
   color: ${theme.white};
-  padding: 0px 40px;
+  padding: 0px 40px 0px 10px;
   border: 1px solid ${theme.grey};
 
   @media (max-width: 410px) {

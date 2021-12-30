@@ -1,5 +1,10 @@
-const pieComponent = () => {
-    return();
+import React from "react";
+
+const pieComponent: React.FC = () => {
+    return(
+        <>
+        </>
+    );
 }
 
 export default pieComponent;

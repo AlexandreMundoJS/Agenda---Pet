@@ -23,9 +23,13 @@ export const NavComponent = styled.div`
   user-select: none;
   touch-action: manipulation;
   :hover {
-    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.5) 0 6px 20px;
   }
   h3 {
     margin-right: 5%;
+  }
+  a {
+    text-decoration: none;
+    color: ${theme.darkGrey};
   }
 `;
